@@ -1,0 +1,21 @@
+{
+  "name": "taller",
+  "version": "0.0.1",
+  "description": "Taller",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e js,dust",
+    "test": "mocha"
+  },
+  "keywords": [
+    "taller"
+  ],
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "adaro": "1.0.4",
+    "dustjs-helpers-gravatar": "0.0.2",
+    "express": "4.14.0",
+    "express-enrouten": "1.3.0"
+  }
+}

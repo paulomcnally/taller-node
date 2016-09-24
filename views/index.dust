@@ -1,0 +1,26 @@
+{>"layouts/master" /}
+
+{<title}
+Bienvenido Titulo
+{/title}
+
+{<body}
+{?names}
+{#names}
+<div>{name}</div>
+<div>{mobile}</div>
+<div>
+  <img src="{@gravatar email="{email}"
+  s="30"
+  r="pg"
+  d="identicon"
+  secure="false" /}
+" />
+</div>
+{/names}
+{:else}
+<div>Vacio</div>
+{/names}
+
+
+{/body}

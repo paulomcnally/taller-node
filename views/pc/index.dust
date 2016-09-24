@@ -1,0 +1,9 @@
+{>"layouts/master" /}
+
+{<title}
+Bienvenido PC Titulo
+{/title}
+
+{<body}
+<div>Bienvenido Contenido PC Index</div>
+{/body}
